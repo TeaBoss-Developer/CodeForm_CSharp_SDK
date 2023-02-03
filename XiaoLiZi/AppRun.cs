@@ -53,14 +53,14 @@ namespace RobotCore
 
         private static void SetAppInfo(AppInfo appInfo)
         {
-            appInfo.sdkv = "3.6.4.0";
-            appInfo.appname = "小栗子 C# SDK 空壳";
-            appInfo.author = "福建-兮";
+            appInfo.sdkv = "6.0.7.2";
+            appInfo.appname = "CodeForm C# SDK 空壳";
+            appInfo.author = "CodeForm";
             appInfo.describe = string.Concat(new string[]
             {
-                "这是一个获取确认ID插件",
+                "这是一个测试",
                 "\r\n",
-                "小栗子官网地址：http://www.xiaolz.cn/"
+                "这是一个测试插件"
             });
             appInfo.appv = "1.0.0";
         }
