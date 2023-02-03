@@ -8,25 +8,21 @@ namespace SDK.Core
         /// <summary>
         /// SDK版本
         /// </summary>
-        public string sdkv = "3.6.4.0";
+        public string sdkv = "";
         /// <summary>
         /// 应用名
         /// </summary>
-        public string appname = "测试插件";
+        public string appname = "";
         /// <summary>
         /// 应用作者
         /// </summary>
-        public string author = "福建-兮";
+        public string author = "";
         /// <summary>
         /// 应用说明
         /// </summary>
         public string describe = string.Concat(new string[] 
         { 
-            "这是一个测试插件",
-            "\r\n", 
-            "可以用此空壳来开发插件", 
-            "\r\n", 
-            "官网地址：http://www.xiaolz.cn/" 
+            "这是一个测试插件"
         });
         /// <summary>
         /// 应用版本
