@@ -75,7 +75,7 @@ namespace RobotCore
             json = appInfo.SetPermission(0, "输出日志", json);
             json = appInfo.SetPermission(1, "发送好友消息", json);
             json = appInfo.SetPermission(2, "发送群消息", json);
-            json = appInfo.SetPermission(3, "发送群临时消息", json);
+            /*json = appInfo.SetPermission(3, "发送群临时消息", json);
             json = appInfo.SetPermission(4, "添加好友", json);
             json = appInfo.SetPermission(5, "添加群", json);
             json = appInfo.SetPermission(6, "删除好友", json);
@@ -290,7 +290,7 @@ namespace RobotCore
             json = appInfo.SetPermission(222, "拉起代付", json);
             json = appInfo.SetPermission(223, "取好友能量值与QID", json);
             json = appInfo.SetPermission(224, "文字转语音", json);
-            json = appInfo.SetPermission(225, "翻译", json);
+            json = appInfo.SetPermission(225, "翻译", json);*/
             return json;
         }
     }
